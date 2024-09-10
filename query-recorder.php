@@ -19,7 +19,7 @@ Author URI: http://deliciousbrains.com
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 // **********************************************************************
 
-$GLOBALS['query_recorder_version'] = '1.0.1';
+$GLOBALS['query_recorder_version'] = '1.0.2';
 
 function query_recorder_load_textdomain() {
 	load_plugin_textdomain( 'query-recorder', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
